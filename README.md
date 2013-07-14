@@ -19,4 +19,4 @@ programs. If all goes well, in addition to a more useful prompt, now you can
 do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
 REPL, among many other features.
 
-Forked from startup-class/setup.
+Forked from startup-class/setup and localized refs to pantouphles.
