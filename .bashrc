@@ -219,9 +219,17 @@ if [ -s ~/.nvm/nvm.sh ]; then
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
 
+# 2.8) git
+alias g='git'
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+export PATH=
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
