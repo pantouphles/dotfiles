@@ -229,7 +229,3 @@ alias g='git'
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
 
-export PATH=
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
